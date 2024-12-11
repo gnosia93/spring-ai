@@ -20,10 +20,6 @@ public class mainController {
         return String.format("spring-ai-%s-%s", hostName, hostAddress);
     }
 
-    @RequestMapping(value = "/end", method = RequestMethod.GET)
-    public String end() throws UnknownHostException {
-        return "n/a";
-    }
 
     @RequestMapping(value = "/index", method = RequestMethod.GET)
     public String index() throws UnknownHostException {
