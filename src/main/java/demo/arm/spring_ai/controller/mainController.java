@@ -24,4 +24,9 @@ public class mainController {
     public String end() throws UnknownHostException {
         return "n/a";
     }
+
+    @RequestMapping(value = "/index", method = RequestMethod.GET)
+    public String index() throws UnknownHostException {
+        return "n/a";
+    }
 }
