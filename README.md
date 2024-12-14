@@ -1,4 +1,4 @@
-### gracle ###
+### 설정 ###
 
 [build.gradle]
 ```
@@ -25,7 +25,7 @@ management:
         auto-time-requests: true
 ```
 
-* endpoint URL
+### 엔드포인트 ###
 ```
 http://127.0.0.1:8080/actuator
 http://127.0.0.1:8080/actuator/metrics
